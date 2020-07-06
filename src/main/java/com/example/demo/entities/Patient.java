@@ -15,12 +15,16 @@ import javax.persistence.OneToMany;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 @Entity
 @AllArgsConstructor
 @Getter
+@Setter
 @ToString
+@NoArgsConstructor
 public class Patient {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

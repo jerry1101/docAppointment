@@ -2,7 +2,6 @@ package com.example.demo.entities;
 
 import java.util.List;
 
-import javax.persistence.Embeddable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
